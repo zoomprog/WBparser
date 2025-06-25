@@ -1,8 +1,9 @@
 from fastapi import APIRouter, HTTPException
-from services.category_service import CategoryService
-
+from fastapi import APIRouter
+from app.services.category_service import CategoryService
 
 router = APIRouter()
+
 category_service = CategoryService()
 
 

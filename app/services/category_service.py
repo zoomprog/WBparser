@@ -1,7 +1,7 @@
 from typing import Optional, Dict, Any, List
 from fastapi import Request
-from utils.category_tree_loader import CategoryTreeLoader
-from utils.helpers import get_level_name
+from app.utils.category_tree_loader import CategoryTreeLoader
+from app.utils.helpers import get_level_name
 
 
 class CategoryService:
