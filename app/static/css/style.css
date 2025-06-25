@@ -1,0 +1,55 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; }
+select { margin-bottom: .8rem; width: 350px; padding: 8px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; }
+.category-form { margin-bottom: 20px; }
+.level-container { margin-bottom: 20px; }
+.level-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+}
+.result-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border: 2px solid #4169e1;
+    border-radius: 8px;
+}
+.url-link {
+    color: #4169e1;
+    text-decoration: none;
+    font-weight: bold;
+    word-break: break-all;
+}
+.url-link:hover { text-decoration: underline; }
+.reset-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.reset-button:hover { background-color: #c82333; }
+.category-path {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border-left: 4px solid #007bff;
+}
+.path-arrow { color: #6c757d; margin: 0 8px; }
+.update-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.update-button:hover { background-color: #218838; }
+h2 { color: #333; margin-bottom: 20px; }

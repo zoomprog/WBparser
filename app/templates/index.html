@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Навигатор по категориям</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<h2>Навигатор по категориям товаров</h2>
+
+<div class="button_update_bd_category">
+    <button class="update-button">Обновить базу категорий</button>
+</div>
+
+<!-- Показываем путь выбранных категорий -->
+{% if category_path %}
+<div class="category-path">
+    <strong>Выбранный путь:</strong>
+    {% for category in category_path %}
+        <span>{{ category.name }}</span>
+        {% if not loop.last %}<span class="path-arrow">→</span>{% endif %}
+    {% endfor %}
+
+    <form method="post" action="/select-category" style="display: inline;">
+        <input type="hidden" name="level" value="1">
+        <input type="hidden" name="current_path" value="">
+        <button type="submit" class="reset-button">Начать заново</button>
+    </form>
+</div>
+{% endif %}
+
+<!-- Форма выбора категорий -->
+<div class="category-form">
+    <!-- Первый уровень - корневые категории -->
+    <div class="level-container">
+        <div class="level-label">Выберите основную категорию:</div>
+        <form method="post" action="/select-category">
+            <input type="hidden" name="level" value="1">
+            <input type="hidden" name="current_path" value="{% if selected_path %}{{ ','.join(selected_path|map('string')) }}{% endif %}">
+            <select name="category_id" onchange="this.form.submit()">
+                <option value="">-- выберите основную категорию --</option>
+                {% for cat in roots %}
+                    <option value="{{ cat.id }}"
+                            {% if selected_path and selected_path[0] == cat.id %}selected{% endif %}>
+                        {{ cat.name }}
+                    </option>
+                {% endfor %}
+            </select>
+        </form>
+    </div>
+
+    <!-- Дополнительные уровни если есть выбранный путь -->
+    {% if category_levels %}
+        {% for level_data in category_levels[1:] %}
+        <div class="level-container">
+            <div class="level-label">{{ level_data.level_name }}:</div>
+            <form method="post" action="/select-category">
+                <input type="hidden" name="level" value="{{ level_data.level }}">
+                <input type="hidden" name="current_path" value="{% if selected_path %}{{ ','.join(selected_path|map('string')) }}{% endif %}">
+                <select name="category_id" onchange="this.form.submit()">
+                    <option value="">-- выберите вариант --</option>
+                    {% for cat in level_data.categories %}
+                        <option value="{{ cat.id }}"
+                                {% if level_data.selected == cat.id %}selected{% endif %}>
+                            {{ cat.name }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </form>
+        </div>
+        {% endfor %}
+    {% endif %}
+</div>
+
+<!-- Результат - URL выбранной категории -->
+{% if final_url %}
+<div class="result-box">
+    <h3>✅ Выбрана конечная категория: {{ selected_category.name }}</h3>
+    <p><strong>Ссылка на категорию:</strong></p>
+    <p><a href="{{ final_url }}" target="_blank" class="url-link">{{ final_url }}</a></p>
+</div>
+{% endif %}
+
+</body>
+</html>

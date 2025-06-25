@@ -1,0 +1,578 @@
+curl 'https://static-basket-01.wbbasket.ru/vol0/data/prodversion-front.json' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'cache-control: max-age=0' \
+  -H 'if-modified-since: Mon, 23 Jun 2025 08:00:20 GMT' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/j/spa/worker/syncPickups.0c67c71ecb4465a45187.js' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol0/data/settings-front.json.hash' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'cache: no-cache' \
+  -H 'if-modified-since: Tue, 24 Jun 2025 10:21:42 GMT' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/cookies.6dfe33e4.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol1/global-payment/default-payment.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/menuLk.17275bde.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol0/data/promotion-creatives.json.hash' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'cache: no-cache' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://www.wildberries.ru/webapi/personalinfo' \
+  -X 'POST' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'content-length: 0' \
+  -b '_wbauid=9084157631750759923' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/mobileMenuTemp.7d68f7b6.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/footer.beae3127.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/onlineChatPopup.4189509b.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/spabrands.ec14ee79.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://www.wildberries.ru/webapi/stats/pageview' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -b '_wbauid=9084157631750759923' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.0' \
+  --data-raw '{"statusCode":200,"path":"/brands/msi","queryString":"","urlReferrer":"","deviceId":"9084157631750759923","address":"","latitude":55.7386,"longitude":37.6068}' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/uploadImageForSearchByImagePopUp.29d85a1d.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://banners-website.wildberries.ru/public/v2/banners?urltype=1024&apptype=3&displaytype=3&longitude=37.6068&latitude=55.7386&country=1&culture=ru&ab_testing=false' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' ;
++curl 'https://static-basket-01.wbbasket.ru/vol0/data/brands/msi.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol0/data/subject-base.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://catalog.wb.ru/brands/v8/filters?ab_testing=false&appType=1&brand=27445&curr=rub&dest=-1255987&filters=xsubject&hide_dtype=13&spp=30' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-captcha-id: Catalog 1|1|1750775070|AA==|a1feea31fcb54d599dba7108c5e13b8c|EepeSummSdGeCXJadDK2K4iGtM8ykXsRXTzpZLblIc8' ;
+curl 'https://catalog.wb.ru/brands/v2/catalog?ab_testing=false&appType=1&brand=27445&curr=rub&dest=-1255987&hide_dtype=13&lang=ru&page=1&sort=popular&spp=30' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-captcha-id: Catalog 1|1|1750775070|AA==|a1feea31fcb54d599dba7108c5e13b8c|EepeSummSdGeCXJadDK2K4iGtM8ykXsRXTzpZLblIc8' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/catalogCard.bf11078e.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/catalogCore.230c3a2c.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/catalogSitePath.3057d797.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/catalogBrandLikes.5e99b7d0.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://www.wildberries.ru/webapi/favorites/brand/getvotesbyid' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -b '_wbauid=9084157631750759923' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.0' \
+  --data-raw 'brandId=27445' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/recommendationsList.50b5b708.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://catalog.wb.ru/brands/v8/filters?ab_testing=false&appType=1&brand=27445&curr=rub&dest=-1255987&hide_dtype=13&lang=ru&spp=30' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-captcha-id: Catalog 1|1|1750775070|AA==|a1feea31fcb54d599dba7108c5e13b8c|EepeSummSdGeCXJadDK2K4iGtM8ykXsRXTzpZLblIc8' ;
+curl 'https://www.wildberries.ru/webapi/spa/brands/metatags/msi?targetUrl=%252Fbrands%252Fmsi' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -b '_wbauid=9084157631750759923' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/filterItem.b5dc26b4.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/mobilePopupFilter.911ad6db.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/brands/msi' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://www.wildberries.ru/webapi/stats/events' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -b '_wbauid=9084157631750759923' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/brands/msi' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.0' \
+  --data-raw '{"pageViewGuid":"8e44d440-d427-4941-92e4-4a57bac2debf","path":"/brands/msi","queryString":"","urlReferrer":"","deviceId":"9084157631750759923","statisticEvents":[{"EventName":"CTO","EventParams":[{"ParamName":"LCTN","ParamValue":null},{"ParamName":"LONG","ParamValue":"37.6068"},{"ParamName":"LAT","ParamValue":"55.7386"},{"ParamName":"WUId","ParamValue":"0"},{"ParamName":"MId","ParamValue":null},{"ParamName":"SORT","ParamValue":"popular"},{"ParamName":"Page","ParamValue":"1"},{"ParamName":"PS","ParamValue":"100"},{"ParamName":"CS","ParamValue":"c516x688"},{"ParamName":"TURL","ParamValue":"/brands/msi"},{"ParamName":"NMS","ParamValue":"[275282605,267779895,245395922,267779904,325754273,275282609,282827218,204382648,204382895,204381412,297206558,256239376,308036490,237702098,428698397,331729066,347709035,347709020,347708928,347708730,347709079,347708787,445112719,347708693,204379164,311627141,349659654,265470165,349660349,77519949,237684406,371018712,370960179,282810190,237684399,283341467,175719916,226780956,299554347,370243553,265462866,265360185,333080128,430294886,265470888,265474083,256761784,256761783,349665396,282827217,234635046,43495220,250901121,246914486,240998712,246914211,325754267,325754265,250901312,328929926,347770109,246914309,251832451,267779932,240998591,240998732,268680648,428976734,282827215,245395971,262847745,248844666,240998748,246914130,370490872,246914128,347770387,257389695,347769315,195936032,414519093,297897869,246914270,347769761,347769381,304359308,246914172,182684879,347769748,256401991,308043479,241017699,347769080,288507154,311637803,416016674,429073752,347770368,347769278,312657907]"}]},{"EventName":"ABOS","EventParams":[{"ParamName":"MId","ParamValue":null},{"ParamName":"ADID","ParamValue":"0"},{"ParamName":"NMID","ParamValue":"275282605"},{"ParamName":"POS","ParamValue":"-1"},{"ParamName":"CPM","ParamValue":"0"},{"ParamName":"SID","ParamValue":"2290"},{"ParamName":"PARAM7","ParamValue":"0"},{"ParamName":"PARAM10","ParamValue":"Ms+992k/mNR3v/q+CQPXa7zjZfQDupBgTUowYAgY+IlTVsUTr9+f8HUPz1E30cJFTHBc7VmFxA"}]},{"EventName":"ABOS","EventParams":[{"ParamName":"MId","ParamValue":null},{"ParamName":"ADID","ParamValue":"0"},{"ParamName":"NMID","ParamValue":"267779895"},{"ParamName":"POS","ParamValue":"-1"},{"ParamName":"CPM","ParamValue":"0"},{"ParamName":"SID","ParamValue":"2290"},{"ParamName":"PARAM7","ParamValue":"0"},{"ParamName":"PARAM10","ParamValue":"MvRarXH0t7Sf1WFk/DtowdhSCDnazntRzrEfJtvWsP2Yo8fIFqd8mlwJvhk5/8GV0W/vcXrh4Q"}]},{"EventName":"ABOS","EventParams":[{"ParamName":"MId","ParamValue":null},{"ParamName":"ADID","ParamValue":"0"},{"ParamName":"NMID","ParamValue":"245395922"},{"ParamName":"POS","ParamValue":"-1"},{"ParamName":"CPM","ParamValue":"0"},{"ParamName":"SID","ParamValue":"2290"},{"ParamName":"PARAM7","ParamValue":"0"},{"ParamName":"PARAM10","ParamValue":"MnUcmGXniXSoRFk79r0D/NlzlTkUiRjoxmiMBUndZzyvOzcbtINBBDirg+yIL78vaLP8PgQUCQ"}]},{"EventName":"ABOS","EventParams":[{"ParamName":"MId","ParamValue":null},{"ParamName":"ADID","ParamValue":"0"},{"ParamName":"NMID","ParamValue":"267779904"},{"ParamName":"POS","ParamValue":"-1"},{"ParamName":"CPM","ParamValue":"0"},{"ParamName":"SID","ParamValue":"2290"},{"ParamName":"PARAM7","ParamValue":"0"},{"ParamName":"PARAM10","ParamValue":"Mg4ynWDOUBNRS+fiqEsE9U1OXT7QOZEQfzTHxkAAb7n5IrMGD0/uJ+JHeLEv9hal/ixQKZxf4A"}]},{"EventName":"ABOS","EventParams":[{"ParamName":"MId","ParamValue":null},{"ParamName":"ADID","ParamValue":"0"},{"ParamName":"NMID","ParamValue":"325754273"},{"ParamName":"POS","ParamValue":"-1"},{"ParamName":"CPM","ParamValue":"0"},{"ParamName":"SID","ParamValue":"2290"},{"ParamName":"PARAM7","ParamValue":"0"},{"ParamName":"PARAM10","ParamValue":"MqTDLlvTz7hgbcQkWoQm1PlurMBD9N82z/iZHATH9xaKw2m15UA7cFkyS5D+vN/20lPWLs0heg"}]},{"EventName":"ABOS","EventParams":[{"ParamName":"MId","ParamValue":null},{"ParamName":"ADID","ParamValue":"0"},{"ParamName":"NMID","ParamValue":"275282609"},{"ParamName":"POS","ParamValue":"-1"},{"ParamName":"CPM","ParamValue":"0"},{"ParamName":"SID","ParamValue":"2290"},{"ParamName":"PARAM7","ParamValue":"0"},{"ParamName":"PARAM10","ParamValue":"Mv7LlehEwAHeiGvfreojPoGCDMqpIqclBxKwC/vv0C9oLP3/eZi1+PbMS72A9+UHUPfZdqQZCQ"}]}]}'
+
+
+
+
+
+
+
+  curl 'https://static-basket-01.wbbasket.ru/vol0/data/prodversion-front.json' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'cache-control: max-age=0' \
+  -H 'if-modified-since: Tue, 24 Jun 2025 14:27:01 GMT' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/j/spa/worker/syncPickups.0c67c71ecb4465a45187.js' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol0/data/settings-front.json.hash' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'cache: no-cache' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/menuLk.d31ea38d.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol0/data/promotion-creatives.json.hash' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'cache: no-cache' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://www.wildberries.ru/webapi/personalinfo' \
+  -X 'POST' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'content-length: 0' \
+  -b '_wbauid=9084157631750759923; x_wbaas_token=1|2|1751974559|AA==|f22fc1b4140748a69dd74cbe267f5542|uE7P9yMhxE8lEl8a4U85kaqCOrDZdCE3zADrpeCRsZx; _cp=1' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.1' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/mobileMenuTemp.7d68f7b6.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/footer.beae3127.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/onlineChatPopup.4189509b.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/spacatalog.be8475e2.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol0/data/main-menu-ru-ru-v3.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://www.wildberries.ru/webapi/stats/pageview' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -b '_wbauid=9084157631750759923; x_wbaas_token=1|2|1751974559|AA==|f22fc1b4140748a69dd74cbe267f5542|uE7P9yMhxE8lEl8a4U85kaqCOrDZdCE3zADrpeCRsZx; _cp=1' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.1' \
+  --data-raw '{"statusCode":200,"path":"/catalog/elektronika/muzyka-i-video","queryString":"","urlReferrer":"","deviceId":"9084157631750759923","address":"","latitude":55.7386,"longitude":37.6068}' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/uploadImageForSearchByImagePopUp.29d85a1d.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/onlineChat.f32b2402.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://catalog.wb.ru/menu/v11/api?locale=ru&lang=ru&id=131289&dest=-1255987' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'if-none-match: 3273247426' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' ;
+curl 'https://catalog.wb.ru/menu/v11/api?locale=ru&lang=ru&id=131776&dest=-1255987' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'if-none-match: 1094918677' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' ;
+curl 'https://chat-prod.wildberries.ru/api/support/v1/unauth/messages' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'basketuid: site_d933731d3a924db9870331a397a23319' \
+  -H 'cache-control: max-age=0' \
+  -H 'locale: ru' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' ;
+curl 'https://catalog.wb.ru/catalog/books3/v2/catalog?ab_testing=false&appType=1&cat=128516&curr=rub&dest=-1255987&hide_dtype=13&lang=ru&page=1&sort=popular&spp=30' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-captcha-id: Catalog 1|1|1750790943|AA==|3affcd89e2dc414088558bb077f2fd85|j1krv9QXi3tBhmRLPiyu91UDnc1xwiDRcQBq6bM5yWY' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/catalogCard.bf11078e.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/catalogCore.230c3a2c.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/catalogSitePath.3057d797.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/recommendationsList.50b5b708.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://catalog.wb.ru/catalog/books3/v8/filters?ab_testing=false&appType=1&cat=128516&curr=rub&dest=-1255987&hide_dtype=13&lang=ru&spp=30' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-captcha-id: Catalog 1|1|1750790943|AA==|3affcd89e2dc414088558bb077f2fd85|j1krv9QXi3tBhmRLPiyu91UDnc1xwiDRcQBq6bM5yWY' ;
+curl 'https://www.wildberries.ru/webapi/spa/catalog/metatags/elektronika/muzyka-i-video?targetUrl=%252Fcatalog%252Felektronika%252Fmuzyka-i-video' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -b '_wbauid=9084157631750759923; x_wbaas_token=1|2|1751974559|AA==|f22fc1b4140748a69dd74cbe267f5542|uE7P9yMhxE8lEl8a4U85kaqCOrDZdCE3zADrpeCRsZx; _cp=1' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.1' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/filterItem.b5dc26b4.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://static-basket-01.wbbasket.ru/vol2/site/t/jst/mobilePopupFilter.911ad6db.json' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' ;
+curl 'https://a.wb.ru/e/ec?t=%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%20%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20-%20%D0%9A%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%20%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B5%20WildBerries.ru&u=https%3A%2F%2Fwww.wildberries.ru%2Fcatalog%2Felektronika%2Fmuzyka-i-video&cid=4&s=1920x1080x24&w=1108x932&user_id=9084157631750759923&vbn=325&timestamp=2025-06-24T15%3A38%3A56.246Z&timezone_offset=180&timezone=Europe%2FMoscow' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: ru,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: text/plain' \
+  -H 'Origin: https://www.wildberries.ru' \
+  -H 'Referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw '{"action":{"type":"view_item_in_list","currency":"RUB"},"products":[{"utcTime":"2025-06-24 18:38:56","id":"37705737","nm":37705737,"chrt":null,"name":"Носитель токен для ЭЦП LT (Лайт) с серт. ФСТЭК","brand":"JaCarta","price":1536,"inListIndex":4,"listName":"CCC||popular|4830||||||","variant":"","quantity":1,"affiliation":"289867|507|WB","category":"regular","category2":"2337","category3":"786","coupon":"48|4.9","country_code":"ru","logs":"","tailObject":{"loc":"CCC","loc_way":"","sort":"popular","terms":{"filters":"","filters_entry_point":"","category":"Музыка и видео","id_category":128516}},"is_available":1}],"cp":{"promo_id":1003454,"stock":4,"goods":131465,"cookies_alert":1,"country":"ru","address":"","lang":"ru"}}' ;
+curl 'https://www.wildberries.ru/webapi/stats/events' \
+  -H 'accept: */*' \
+  -H 'accept-language: ru,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -b '_wbauid=9084157631750759923; x_wbaas_token=1|2|1751974559|AA==|f22fc1b4140748a69dd74cbe267f5542|uE7P9yMhxE8lEl8a4U85kaqCOrDZdCE3zADrpeCRsZx; _cp=1' \
+  -H 'deviceid: site_d933731d3a924db9870331a397a23319' \
+  -H 'origin: https://www.wildberries.ru' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.wildberries.ru/catalog/elektronika/muzyka-i-video' \
+  -H 'sec-ch-ua: "Chromium";v="134", "Not:A-Brand";v="24", "YaBrowser";v="25.4", "Yowser";v="2.5"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  -H 'x-spa-version: 12.3.1' \
+  --data-raw '{"pageViewGuid":"4ce13502-c966-40a4-a215-43d0d05f7a49","path":"/catalog/elektronika/muzyka-i-video","queryString":"","urlReferrer":"","deviceId":"9084157631750759923","statisticEvents":[{"EventName":"CTO","EventParams":[{"ParamName":"LCTN","ParamValue":null},{"ParamName":"LONG","ParamValue":"37.6068"},{"ParamName":"LAT","ParamValue":"55.7386"},{"ParamName":"WUId","ParamValue":"0"},{"ParamName":"MId","ParamValue":"128516"},{"ParamName":"SORT","ParamValue":"popular"},{"ParamName":"Page","ParamValue":"1"},{"ParamName":"PS","ParamValue":"100"},{"ParamName":"CS","ParamValue":"c516x688"},{"ParamName":"TURL","ParamValue":"/catalog/elektronika/muzyka-i-video"},{"ParamName":"NMS","ParamValue":"[65100803,3518630,16507933,37705737,35759044,418877065,293080469,326590578,261028819,10592399,317904381,438706697,332040372,332019916,332031922,228907042,398586373,247190473,303259121,253428518,30288734,422473149,425261285,219323729,412476566,392070517,10592364,192125838,407225819,226046894,188581324,304043927,390383317,190439638,242488812,273605102,345544169,250966773,200399771,252724321,258160033,244306565,228907041,12549112,209641323,10369297,226046953,173312344,246027459,238054114,310820358,246027462,246027454,246027449,246027467,49924003,49925010,221311900,28613631,309153830,49919513,332704843,223512356,49923769,49925233,253404205,49943244,398314763,214769064,48870555,228898151,28618825,374198682,240600903,296472582,10402495,309429739,226311037,27216520,155890463,333188209,48867878,49923451,170341786,16507935,370449142,10592428,185323327,49888192,48728072,217463828,49923301,391451586,224845670,49922798,338326608,370591939,226299569,240458970,226415051]"}]}]}'
