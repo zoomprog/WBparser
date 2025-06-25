@@ -4,6 +4,9 @@ from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from utils.category_tree_loader import CategoryTreeLoader
 from typing import Optional
+import subprocess
+import sys
+from pathlib import Path
 
 app = FastAPI(title="Категории из JSON")
 templates = Jinja2Templates(directory="templates")
@@ -13,6 +16,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Создаем экземпляр загрузчика категорий
 tree_loader = CategoryTreeLoader()
+
 
 def get_level_name(level: int, parent_category_name: str = None) -> str:
     """Возвращает название уровня категории в зависимости от контекста."""
@@ -31,11 +35,12 @@ def get_level_name(level: int, parent_category_name: str = None) -> str:
 
 
 @app.get("/", response_class=HTMLResponse)
-async def index(request: Request, selected_path: Optional[str] = None):
+async def index(request: Request, selected_path: Optional[str] = None, update_status: Optional[str] = None):
     """Главная страница с выбором категорий."""
     context = {
         "request": request,
-        "roots": tree_loader.get_root_categories()
+        "roots": tree_loader.get_root_categories(),
+        "update_status": update_status  # Добавляем статус обновления
     }
 
     # Если есть выбранный путь, восстанавливаем состояние
@@ -119,6 +124,45 @@ async def select_category(
     return RedirectResponse(url=f"/?selected_path={path_str}", status_code=303)
 
 
+@app.post("/update-categories")
+async def update_categories(current_path: str = Form("")):
+    """Обновление базы категорий из внешнего источника."""
+    try:
+        # Запускаем скрипт
+        result = subprocess.run(
+            [sys.executable, str(Path("../parsing/search_category_json.py").resolve())],
+            capture_output=True,
+            text=True,
+            cwd=Path.cwd()
+        )
+
+        if result.returncode == 0:
+            # Перезагружаем данные в tree_loader
+            global tree_loader
+            tree_loader = CategoryTreeLoader()
+
+            # Перенаправляем с параметром успеха
+            redirect_url = f"/?update_status=success"
+            if current_path:
+                redirect_url += f"&selected_path={current_path}"
+            return RedirectResponse(url=redirect_url, status_code=303)
+        else:
+            # Ошибка выполнения скрипта
+            error_msg = result.stderr or "Неизвестная ошибка при выполнении скрипта"
+            redirect_url = f"/?update_status=error&error_msg={error_msg}"
+            if current_path:
+                redirect_url += f"&selected_path={current_path}"
+            return RedirectResponse(url=redirect_url, status_code=303)
+
+    except Exception as e:
+        # Общая ошибка
+        error_msg = str(e)
+        redirect_url = f"/?update_status=error&error_msg={error_msg}"
+        if current_path:
+            redirect_url += f"&selected_path={current_path}"
+        return RedirectResponse(url=redirect_url, status_code=303)
+
+
 @app.get("/api/categories/{parent_id}")
 def children(parent_id: int):
     """API для получения дочерних категорий (для обратной совместимости)."""
@@ -126,3 +170,9 @@ def children(parent_id: int):
     if not children_list and not tree_loader.get_category(parent_id):
         raise HTTPException(404, detail="Категория не найдена")
     return [{"id": ch.id, "name": ch.name} for ch in children_list]
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=8000)

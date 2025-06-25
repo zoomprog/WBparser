@@ -8,8 +8,24 @@
 <body>
 <h2>Навигатор по категориям товаров</h2>
 
+<!-- Уведомления о результате обновления -->
+{% if update_status %}
+    {% if update_status == 'success' %}
+    <div class="notification success">
+        ✅ База категорий успешно обновлена!
+    </div>
+    {% elif update_status == 'error' %}
+    <div class="notification error">
+        ❌ Ошибка при обновлении базы категорий: {{ request.query_params.get('error_msg', 'Неизвестная ошибка') }}
+    </div>
+    {% endif %}
+{% endif %}
+
 <div class="button_update_bd_category">
-    <button class="update-button">Обновить базу категорий</button>
+    <form method="post" action="/update-categories">
+        <input type="hidden" name="current_path" value="{% if selected_path %}{{ ','.join(selected_path|map('string')) }}{% endif %}">
+        <button type="submit" class="update-button">Обновить базу категорий</button>
+    </form>
 </div>
 
 <!-- Показываем путь выбранных категорий -->
