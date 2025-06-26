@@ -94,9 +94,6 @@
 {% if final_url %}
 <div class="result-box">
     <h3>✅ Выбрана конечная категория: {{ selected_category.name }}</h3>
-    <p><strong>Ссылка на категорию:</strong></p>
-    <p><a href="{{ final_url }}" target="_blank" class="url-link">{{ final_url }}</a></p>
-
     <!-- Кнопка "Применить" появляется только для конечной категории -->
     <div class="apply-section">
         <form method="post" action="/parse-products">
