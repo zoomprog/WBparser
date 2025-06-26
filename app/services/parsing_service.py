@@ -226,7 +226,7 @@ class ParsingService:
             print(f"Ошибка при парсинге: {e}")
             return False
 
-    def get_latest_products(self, limit: int = 50) -> List[Product]:
+    def get_latest_products(self, limit: int = None) -> List[Product]:
         """Получает последние спарсенные товары из базы данных."""
         try:
             with self.db_manager.get_connection() as conn:
